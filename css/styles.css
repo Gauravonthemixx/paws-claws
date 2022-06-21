@@ -1,0 +1,276 @@
+body{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
+/* css for home */
+#home{
+    background-color: #5CDB95;
+
+}
+.container-fluid{
+    padding: 5% 15% 8%;
+}
+/* css for navbar */
+.navbar{
+    font-size: 1.3rem;
+    padding-bottom: 4.5rem;
+    
+}
+.navbar-brand{
+    font-family: 'Sacramento';
+    font-size: 3rem;
+    font-weight: bold;
+    color: #05386B;
+}
+.fa-paw{
+    font-size: 2rem;
+    margin-right: 10px;
+    transform: rotate(-29deg);
+    color: #05386B;
+}
+
+.nav-item{
+    margin: 0 18px;
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.2 rem;
+    color: #05386B;
+}
+
+/* css for title */
+.big-heading,h1{
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.3;
+    padding-bottom: 5%;
+}
+
+.fa-apple, .fa-google-play{
+    margin-right: 5px;
+}
+.btn{
+    color: #fff;
+    background-color: #05386B;   
+}
+.btn-google{
+    margin-left: 10px;
+    border-color: #05386B;
+    background-color: #5CDB95;
+    color: #05386B;
+
+}
+.btn-google:hover{
+    color: #05386B;
+    border-color: #05386B;
+}
+.title-image{
+    margin-top: 25px;
+}
+
+.title-image img {
+    width: 75%;
+    margin-left: 6rem;
+}
+
+/* features css starts here */
+#features{
+    padding: 12% 13% ;
+    text-align: center;
+}
+h2{
+    color: #05386B;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2;
+}
+p{
+    color: rgb(154, 154, 154);
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.2rem;
+    /* padding: 0 4rem; */
+    line-height: 1.8;
+
+
+}
+.feature-bath{
+    /* margin-bottom: 5rem; */
+    margin-bottom: 110px;
+    
+    
+}
+.features-icon{
+    color: #a8d2bb;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+.features-icon:hover{
+    color: #5CDB95;
+}
+
+
+
+/* mission css here */
+#mission{
+    background-color: #5CDB95;
+
+}
+
+.mission-container{
+    padding: 5% 15% 1%;
+}
+
+.mission-text-section{
+    padding: 20px 0;
+    padding-right: 100px;
+}
+.mission-text{
+    color: #05386B;
+    margin-bottom: 5rem;
+    font-size: 1.1rem;
+}
+
+.mission-image{
+    position: relative;
+    top: 240px;
+    left: 50px;
+    width: 100%;
+}
+
+
+/* pricing css starts here */
+#pricing{
+    background-color: #EDF5E1;
+}
+.pricing-container{
+    text-align: center;
+    padding: 7% 5%;
+
+}
+.pricing-heading{
+    font-size: 3rem;
+    letter-spacing: 3;
+}
+
+
+.pricing-subheading{
+    font-weight: 100;
+}
+
+
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.pricing-column{
+    padding: 4% 3%;
+}
+
+.price-tag{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+
+/* testimonial styles here */
+#testimonial{
+    text-align: center;
+    background-color: #05386B;
+    color: #fff;
+    padding-bottom: 5%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    
+    margin: 40px 0 25px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-content{
+    color: rgb(221, 221, 221);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 300px;
+    color: #05386B;
+  /* outline: black; */
+  /* background-size: 100%, 100%; */
+  /* border-radius: 50%; */
+  /* border: 1px solid black; */
+  /* background-image: none; */
+}
+
+.testimonial-button{
+    border: 1px solid #fff;
+}
+.testimonial-button:hover{
+    border: 1px solid #05386B;
+    background-color: #fff;
+    color: #05386B;
+}
+
+.testimonial-google:hover{
+    background-color: #5CDB95;
+    color: #05386B;
+    border: none;
+
+}
+.catchy-line{
+    font-family: "Roboto";
+    font-size: 900;
+    font-size: 3.5rem;  
+    color: rgb(221, 221, 221);
+}
+
+
+/* footer styles here */
+#footer{
+    padding: 3% 0 2% ;
+    text-align: center;
+    background-color: #EDF5E1;
+    color: #05386B;
+}
+
+.footer-social{
+    font-size: 1.1rem;
+    margin: 10px 25px 16px;
+}
+.footer-copyrights{
+    color: #05386B;
+}
+
+
+
+
+
+@media screen and (max-width:991px){
+    #home{
+        text-align: center;
+    }
+    .title-image img{
+        margin: 0;
+
+    }
+    #mission{
+        padding-bottom: 50px;
+    }
+    .mission-text{
+        font-size: 1.2rem;
+    }
+    .mission-image{
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+}
